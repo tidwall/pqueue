@@ -1,0 +1,15 @@
+[package]
+name = "pqueue"
+version = "0.1.0"
+authors = ["Josh Baker <joshbaker77@gmail.com>"]
+edition = "2021"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/tidwall/pqueue"
+documentation = "https://docs.rs/pqueue/"
+description = "Priority Queue for Rust"
+
+[lib]
+doctest = false
+
+[dependencies]
