@@ -1,4 +1,8 @@
+#![no_std]
 mod test;
+
+extern crate alloc;
+use alloc::vec::Vec;
 
 pub struct Queue<T: PartialOrd> {
     items: Vec<T>,
